@@ -26,14 +26,14 @@ __DATA__
 </section>
 
 <section>
-  <a href="http://www.tmcm.com/tmcm/elephant-in-the-room/"><img src="/elephant.jpg" alt="The elephant in the room"></a>
+  <a href="http://www.tmcm.com/tmcm/elephant-in-the-room/"><img src="elephant.jpg" alt="The elephant in the room"></a>
   <p><a href="http://www.tmcm.com/tmcm/elephant-in-the-room/"><small>http://www.tmcm.com/tmcm/elephant-in-the-room/</small></a></p>
 </section>
 
 <section>
   <h2 class="no-uc">MojoConf 2014</h2>
   <p>Oslo.pm++ hosted the first MojoConf</p>
-  <a href="https://twitter.com/bjoernfan/status/470503825905025024"><img src="/2014.jpg" alt="MojocConf 2014 attendees"></a>
+  <a href="https://twitter.com/bjoernfan/status/470503825905025024"><img src="2014.jpg" alt="MojocConf 2014 attendees"></a>
   <p><small>Image credit: <a href="https://twitter.com/bjoernfan">@bjoernfan</a></small></p>
 </section>
 
