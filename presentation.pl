@@ -19,6 +19,7 @@ __DATA__
 
 <section>
   <h1><%= title %></h1>
+  <img width="30%" src="cloud.png">
 </section>
 
 <section>
@@ -68,7 +69,6 @@ __DATA__
     <li>Non-blocking DNS lookup option*</li>
     <li>Improved Mojo::DOM api</li>
     <li>No more wantarray()</li>
-    <li>Mojo::Pg spinoff project (Minion too)</li>
   </ul>
   <p><small>* with optional CPAN module</small></p>
 </section>
@@ -88,6 +88,20 @@ __DATA__
 </section>
 
 <section>
+  <h2 class="no-uc">Minion</h2>
+  <ul>
+    <li>Job queue for Mojolicious applications</li>
+    <li>Rewritten to allow pluggable backends</li>
+    <li>Current backends include:
+      <ul>
+        <li>PostgreSQL (via Mojo::Pg)</li>
+        <li>DBM::Deep (file)</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section>
   <h2>And Then a Funny Thing Happened ...</h2>
 </section>
 
@@ -98,6 +112,16 @@ __DATA__
     <li>#mojo on irc.perl.org</li>
     <li><a href="http://groups.google.com/group/mojolicious">http://groups.google.com/group/mojolicious</a></li>
   </ul>
+</section>
+
+<section>
+  <h3>Get Cool Mojolicious Stuff!</h3>
+  <h3>Help Support The Project!</h3>
+  <img width="20%" src="cloud_shirt.png">
+  <img width="20%" src="perl5_shirt.png">
+  <img width="20%" src="failraptor_shirt.png">
+  <br>
+  <a href="http://mojolicio.us">http://mojolicio.us</a>
 </section>
 
 <section>
@@ -120,3 +144,4 @@ __DATA__
     <li>hallway++</li>
   </ul>
 </section>
+
