@@ -115,6 +115,17 @@ __DATA__
 </section>
 
 <section>
+  <h2>TechEmpower Framework Benchmarks</h2>
+  <img style="float: left;" width="40%" src="TE.png">
+  <ul>
+    <li><a href="http://www.techempower.com/benchmarks">techempower.com/benchmarks</a></li>
+    <li>Perl apps cleaned up</li>
+    <li>Mojolicious performed well</li>
+    <li>Help me improve Perl's standing</li>
+  </ul>
+</section>
+
+<section>
   <h3>Get Cool Mojolicious Stuff!</h3>
   <h3>Help Support The Project!</h3>
   <img width="20%" src="cloud_shirt.png">
