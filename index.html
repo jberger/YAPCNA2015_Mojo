@@ -50,6 +50,7 @@
 
 <section>
   <h1>Mojolicious 2015</h1>
+  <img width="30%" src="cloud.png">
 </section>
 
 <section>
@@ -99,7 +100,6 @@
     <li>Non-blocking DNS lookup option*</li>
     <li>Improved Mojo::DOM api</li>
     <li>No more wantarray()</li>
-    <li>Mojo::Pg spinoff project (Minion too)</li>
   </ul>
   <p><small>* with optional CPAN module</small></p>
 </section>
@@ -119,6 +119,20 @@
 </section>
 
 <section>
+  <h2 class="no-uc">Minion</h2>
+  <ul>
+    <li>Job queue for Mojolicious applications</li>
+    <li>Rewritten to allow pluggable backends</li>
+    <li>Current backends include:
+      <ul>
+        <li>PostgreSQL (via Mojo::Pg)</li>
+        <li>DBM::Deep (file)</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section>
   <h2>And Then a Funny Thing Happened ...</h2>
 </section>
 
@@ -129,6 +143,16 @@
     <li>#mojo on irc.perl.org</li>
     <li><a href="http://groups.google.com/group/mojolicious">http://groups.google.com/group/mojolicious</a></li>
   </ul>
+</section>
+
+<section>
+  <h3>Get Cool Mojolicious Stuff!</h3>
+  <h3>Help Support The Project!</h3>
+  <img width="20%" src="cloud_shirt.png">
+  <img width="20%" src="perl5_shirt.png">
+  <img width="20%" src="failraptor_shirt.png">
+  <br>
+  <a href="http://mojolicio.us">http://mojolicio.us</a>
 </section>
 
 <section>
@@ -163,7 +187,7 @@
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
       
-      var init = {"controls":true,"history":true,"center":true,"transition":"slide","progress":true};
+      var init = {"progress":true,"controls":true,"history":true,"center":true,"transition":"slide"};
 			// Optional reveal.js plugins
       init.dependencies = [
         { src: 'revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
